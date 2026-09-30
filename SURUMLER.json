@@ -101,18 +101,18 @@
       "build_family": "18363",
       "full_build": "18363.959",
       "architecture": "x64",
-      "status": "sources_published_iso_pending",
+      "status": "published",
       "language_target": "tr-TR",
       "target_ram_gb": 8,
       "ram_is_project_target_not_official_minimum": true,
       "storage_target": "SSD",
       "intended_use": "Geleneksel işlemcili bilgisayarlarda dengeli profil",
       "repository_url": "https://github.com/ozelturktarkan/Windows-10-ERTURK",
-      "iso_download_url": null,
+      "iso_download_url": "https://archive.org/download/windows-10-erturk/Windows%2010%20ERT%C3%9CRK.iso",
       "release_url": "https://github.com/ozelturktarkan/Windows-10-ERTURK/releases/tag/v1.0-r2",
       "iso_bytes": 4576935936,
       "iso_sha256": "5eb35124b8847124ee308326910c1868b4f28cc7e35466a6947279bcee6821d4",
-      "archive_verification": "not_available_iso_link_pending",
+      "archive_verification": "metadata_size_sha1_md5_match_http_head_ok",
       "test_evidence_url": "https://github.com/ozelturktarkan/Windows-10-ERTURK/blob/main/Kurulum-Kontrol.json",
       "notes": [
         "4 GB RAM ile test edildi; RAM hedefi resmi minimum değildir.",
@@ -121,7 +121,9 @@
       ],
       "source_iso_verification_url": "https://github.com/ozelturktarkan/Windows-10-ERTURK/blob/main/KAYNAK-ISOLAR.md",
       "source_microsoft_sha256_verified": false,
-      "revision": "r2-magazasiz"
+      "revision": "r2-magazasiz",
+      "archive_url": "https://archive.org/details/windows-10-erturk",
+      "archive_verification_url": "https://github.com/ozelturktarkan/Windows-10-ERTURK/blob/main/Archive-Dogrulama.json"
     },
     {
       "id": "windows-10-uluturk",
@@ -132,7 +134,7 @@
       "build_family": "19045",
       "full_build": "19045.2965",
       "architecture": "x64",
-      "status": "sources_published_iso_pending",
+      "status": "sources_published_iso_uploading",
       "language_target": "tr-TR",
       "target_ram_gb": 16,
       "ram_is_project_target_not_official_minimum": true,
@@ -143,7 +145,7 @@
       "release_url": "https://github.com/ozelturktarkan/Windows-10-ULUTURK/releases/tag/v1.0-r2",
       "iso_bytes": 5161299968,
       "iso_sha256": "069cd731adf5285feb50b4a8bd6d4801d855960324e171d6f94ff2b6b4fa45d8",
-      "archive_verification": "not_available_iso_link_pending",
+      "archive_verification": "uploading_user_reported_not_verified",
       "test_evidence_url": "https://github.com/ozelturktarkan/Windows-10-ULUTURK/blob/main/Kurulum-Kontrol.json",
       "notes": [
         "4 GB RAM ile test edildi; RAM hedefi resmi minimum değildir.",
@@ -152,7 +154,9 @@
       ],
       "source_iso_verification_url": "https://github.com/ozelturktarkan/Windows-10-ULUTURK/blob/main/KAYNAK-ISOLAR.md",
       "source_microsoft_sha256_verified": true,
-      "revision": "r2-turkce-dock"
+      "revision": "r2-turkce-dock",
+      "archive_url": "https://archive.org/details/windows-10-uluturk",
+      "archive_verification_url": "https://github.com/ozelturktarkan/Windows-10-ULUTURK/blob/main/Archive-Durumu.json"
     },
     {
       "id": "windows-11-umay",
