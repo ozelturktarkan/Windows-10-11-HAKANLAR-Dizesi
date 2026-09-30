@@ -31,3 +31,12 @@ Bunlar kaynak dosyalarının Git kimlikleridir; ISO hash'i veya bağımsız güv
 ## Yayımlama yardımcısının API kaynakları
 
 [GitHub CLI API](https://cli.github.com/manual/gh_api) · [GitHub CLI oturum açma](https://cli.github.com/manual/gh_auth_login) · [Depo oluşturma API'si](https://docs.github.com/en/rest/repos/repos#create-a-repository-for-the-authenticated-user) · [Git ağaçları](https://docs.github.com/en/rest/git/trees) · [Git commit'leri](https://docs.github.com/en/rest/git/commits) · [Git referansları](https://docs.github.com/en/rest/git/refs)
+
+## 1 Ekim 2026 kaynak/yayın güncellemesi
+
+- [ERTÜRK kaynak ISO raporu](https://github.com/ozelturktarkan/Windows-10-ERTURK/blob/main/KAYNAK-ISOLAR.md): 1909 yerel hashleri, Archive metaverisi eşleşmesi ve resmî Microsoft referansının doğrulanamadığı sınır.
+- [ULUTÜRK kaynak ISO raporu](https://github.com/ozelturktarkan/Windows-10-ULUTURK/blob/main/KAYNAK-ISOLAR.md): 22H2 x64v1 için Microsoft SHA-256 eşleşmesi ve farklı Archive medyası ayrımı.
+- [Microsoft 22H2 resmî SHA-256 tablosu](https://www.microsoft.com/tr-tr/software-download/windows10ISO/).
+- [ALP ER TUNGA güncel Archive kaydı](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA/blob/main/Archive-Dogrulama.json): ISO bağlantısı, boyut/SHA-1/MD5 denetimi.
+
+Önceki bölümdeki Git kimlikleri ilk katalog hazırlanırken okunan tarihî kayıtlardır; güncel yayın durumu yukarıdaki alt depolardan alınmıştır.

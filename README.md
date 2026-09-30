@@ -6,7 +6,7 @@ Windows 10/11 **HAKANLAR Dizesi**, sanal makine laboratuvarlarından düşük do
 
 Bu depo ailenin **tanıtım, seçim ve yayın kataloğudur**. Windows kurulum dosyalarını barındırmaz. Her yayımlanan profilin kendi kaynak deposu, değişiklik listesi, test raporu ve ISO doğrulama kaydı bulunur. HAKANLAR, Microsoft'un resmî bir ürün ailesi değildir.
 
-> **Yayın ve destek durumu — 30 Eylül 2026:** Windows 10 UMAY ve Windows 10 KIZILELMA ISO bağlantıları yayımlanmıştır. Windows 10 ALP ER TUNGA r4 kaynakları ve test notları GitHub’da yayımlanmıştır; büyük ISO’nun indirme bağlantısı beklenmektedir. Windows 10 ERTÜRK/ULUTÜRK ile beş Windows 11 profili **planlanan** durumundadır; hazır ISO veya tamamlanmış test gibi sunulmaz. Eski Windows tabanlarının çalışması, güncel güvenlik desteği aldığı anlamına gelmez. [Teknik notlar ve destek durumu](docs/TEKNIK-NOTLAR.md).
+> **Yayın durumu — 1 Ekim 2026:** Windows 10 UMAY, KIZILELMA ve ALP ER TUNGA ISO bağlantıları yayımlandı. ERTÜRK r2 ve ULUTÜRK r2 kaynakları, test kayıtları ve hashleri GitHub’da yayımlandı; bu iki sürümün büyük ISO bağlantıları bekleniyor. Beş Windows 11 profili planlanan durumunda. Kaynak ISO doğrulaması ile son özelleştirilmiş ISO doğrulaması ayrı kayıtlardır. [Teknik notlar ve destek durumu](docs/TEKNIK-NOTLAR.md).
 
 ## Ailenin mantığı
 
@@ -26,9 +26,9 @@ Bu değerler **Microsoft'un asgari gereksinimleri değildir**. İş yükü, sür
 | --- | --- | --- | --- | --- |
 | **UMAY** | Home, sürüm 1607 | x86 / 14393 | 1 GB+; VM/test | Yayımlandı; sınırlar aşağıda |
 | **KIZILELMA** | Home, sürüm 1607 | x86 / 14393 | 2 GB+; HDD, SSD tercih edilir | Yayımlandı; sınırlar aşağıda |
-| **ALP ER TUNGA** | Pro, sürüm 1607 | x64 / 14393 | 4 GB+; SSD | [Kaynaklar yayımlandı](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA); ISO bağlantısı bekleniyor |
-| **ERTÜRK** | Pro, sürüm 1909 | x64 / 18363 | 8 GB+; SSD | Planlanan |
-| **ULUTÜRK** | Pro, sürüm 22H2 | x64 / 19045 | 16 GB+; SSD | Planlanan |
+| **ALP ER TUNGA** | Pro, sürüm 1607 | x64 / 14393 | 4 GB+; SSD | [ISO ve kaynaklar yayımlandı](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA) |
+| **ERTÜRK** | Pro, sürüm 1909 | x64 / 18363 | 8 GB+; SSD | [r2 kaynakları yayımlandı](https://github.com/ozelturktarkan/Windows-10-ERTURK); ISO bağlantısı bekleniyor |
+| **ULUTÜRK** | Pro, sürüm 22H2 | x64 / 19045 | 16 GB+; SSD | [r2 kaynakları yayımlandı](https://github.com/ozelturktarkan/Windows-10-ULUTURK); ISO bağlantısı bekleniyor |
 
 Sürüm adları ve yapı aileleri farklı alanlardır; örneğin **1909 sürüm**, **18363 yapı ailesidir**. [Microsoft sürüm kaydı](https://learn.microsoft.com/en-us/windows/release-health/release-information).
 
@@ -58,7 +58,7 @@ Windows Update hizmeti başlangıçta kapalıdır; bakım altyapısı korunur ve
 
 **Arşiv doğrulama düzeyi:** Mevcut raporda 2.645.475.328 baytın tamamının okunarak SHA-256, SHA-1 ve MD5 eşleşmesinin doğrulandığı kayıtlıdır. [Tam dosya doğrulaması](https://github.com/ozelturktarkan/Windows-10-KIZILELMA/blob/main/ISO-DOGRULAMA.json). Hash eşleşmesi güvenlik taraması değildir.
 
-### Windows 10 ALP ER TUNGA — kaynaklar yayımlandı, ISO bağlantısı bekleniyor
+### Windows 10 ALP ER TUNGA — yayımlandı
 
 **Pro işlevlerini daha fazla koruyan, eski x64 bilgisayarlar için profil.** Windows 10 Pro 1607 x64 (14393.0) tabanı; **4 GB+ RAM ve SSD** hedeflenir. Geçerli sürüm **r4 Mağazasız**dır.
 
@@ -68,27 +68,29 @@ Cortana kapalı, yerel arama çalışır. Güvenlik duvarı, isteğe bağlı Hyp
 
 **[GitHub / kaynaklar ve testler](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA)** · [Kaynak paketi, imleç ve arka plan](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA/releases/tag/v1.0-r4) · [Kullanıcı uygulama testi](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA/blob/main/r4-Kullanici-Testi.json)
 
-**ISO indirme bağlantısı henüz yayımlanmadı.** Yerel üretim kaydı: `Windows 10 ALP ER TUNGA.iso`, **3.623.372.800 bayt**. Son ISO SHA-256:
+**[Windows 10 ALP ER TUNGA ISO indir](https://archive.org/download/windows-10-alp-er-tunga/Windows%2010%20ALP%20ER%20TUNGA.iso).** Yerel üretim kaydı: `Windows 10 ALP ER TUNGA.iso`, **3.623.372.800 bayt**. Son ISO SHA-256:
 
 ```text
 fb47bb5ed1e12f4a4e1f9083b02de34b6118bab9ef7477f12946e5a1f2a36c41
 ```
 
-[Sürüm ve hash kaydı](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA/blob/main/SURUM.json). Archive kopyası için doğrulama iddiası yoktur. Fiziksel donanım, Hyper-V çalıştırma, elle güncelleme ve uzun dönem kararlılık test edilmiş sayılmaz; 1607 Pro tabanına güncel güvenlik desteği kazandırılmaz.
+[Sürüm ve hash kaydı](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA/blob/main/SURUM.json). Alt deponun [Archive kaydına](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA/blob/main/Archive-Dogrulama.json) göre boyut/SHA-1/MD5 eşleşti; tam Archive dosyasının yeniden SHA-256 hesabı yapılmış sayılmaz. Fiziksel donanım, Hyper-V çalıştırma, elle güncelleme ve uzun dönem kararlılık test edilmiş sayılmaz; 1607 Pro tabanına güncel güvenlik desteği kazandırılmaz.
 
-### Windows 10 ERTÜRK — planlanan
+### Windows 10 ERTÜRK — r2 kaynakları yayımlandı
 
-**Geleneksel masaüstü bilgisayarlar için dengeli Pro profili.** Windows 10 Pro 1909 x64 tabanı; 8 GB+ RAM ve SSD hedeflenir. İkinci nesil Intel Core'dan 11. nesle kadar uzanan seçilmiş sistemler ve benzer AMD donanımlar başlangıç test hedefidir; bütün bu modellerin uyumluluğu doğrulanmış değildir.
+Windows 10 Pro 1909 x64, 18363.959; **8 GB+ RAM ve SSD** hedefi. Kurulum testi 4 GB RAM ile yapıldı. Store/Store Purchase App kaldırıldı; temel uygulamalar, yerel arama ve Edge Legacy korundu. Dört efektli profil, Türk bayrağı imleci ve ortak arka plan kullanılır. Ses için kullanıcı onayı ve VM ayarı/sorun giderici müdahalelerinin sınırı test raporundadır.
 
-1909, bu işlemci aralığı için zorunlu veya doğal olarak en hızlı Windows tabanı olduğu için seçilmiş gibi sunulmaz. Bu bir **proje taban tercihidir**; gerekçesi aynı donanım üzerinde karşılaştırmalı testlerle değerlendirilecektir. Daha yeni sürücü, uygulama ve güvenlik desteği gereksinimleri nedeniyle her bilgisayar için uygun olmayabilir. **Henüz yayımlanmış ISO/test sonucu yoktur.** Mağaza’nın güncellenmesi ve uygulama indirme davranışı, bileşen kaldırmaya başlamadan önce temiz 1909 üzerinde ayrıca sınanacaktır; 1607 gözlemi 1909 için kesin sonuç sayılmaz.
+**[GitHub / kaynaklar ve testler](https://github.com/ozelturktarkan/Windows-10-ERTURK)** · [r2 kaynak paketi](https://github.com/ozelturktarkan/Windows-10-ERTURK/releases/tag/v1.0-r2). Büyük ISO bağlantısı bekleniyor.
 
-### Windows 10 ULUTÜRK — planlanan
+1909 kaynak ISO'sunun boyut/SHA-1/MD5 değerleri Archive metaverisiyle, gömülü WIM üretim kaynağıyla eşleşti. **Resmî Microsoft hash referansı bulunamadığından Microsoft özgünlüğü bağımsız doğrulanmadı.** [Kaynak bağlantısı ve tam rapor](https://github.com/ozelturktarkan/Windows-10-ERTURK/blob/main/KAYNAK-ISOLAR.md).
 
-**Windows 10'da daha geniş uyumluluk ve sınırlı sadeleştirme hedefi.** Pro 22H2 x64 tabanı; 16 GB+ RAM ve SSD hedeflenir. Intel 12–14. nesil gibi daha yeni sistemler test adaylarıdır; sonraki bütün nesiller veya bütün AMD sistemleri için destek sözü verilmez.
+### Windows 10 ULUTÜRK — r2 kaynakları yayımlandı
 
-22H2, Windows 10'un son sürümüdür. Hibrit P/E çekirdek desteğinin ilk kez yalnızca 22H2 ile geldiği iddia edilmez; Intel, Thread Director'ın tüm yeteneklerinden yararlanmak için Windows 11'i işaret eder. [Intel açıklaması](https://www.intel.com/content/www/us/en/support/articles/000088749/processors/intel-core-processors.html).
+Windows 10 Pro 22H2 x64, 19045.2965; **16 GB+ RAM ve SSD** hedefi. Kurulum testi 4 GB RAM / 1 vCPU ile yapıldı. Store ve temel uygulamalar korundu. MyDock 5.10.1, Türkçe dil dosyaları, otomatik gizlenen görev çubuğu ve dört efektli profil bulunur. Üçüncü taraf dock ikilileri GitHub paketinde yoktur; yeniden üretim için hash ile tanımlanan arşiv ayrıca gerekir.
 
-**Güncelleme koşulu:** Microsoft'un 30 Eylül 2026'da kontrol edilen bireysel ESU sayfasında bitiş **12 Ekim 2027** olarak belirtilmektedir. Bu, uygun 22H2 cihazın programa kaydı ve gerekli güncellemelerin kurulması şartıyla sağlanan güvenlik güncellemeleridir; ULUTÜRK otomatik ESU hakkı vermez. Ticari ESU ayrı bir programdır. [Microsoft bireysel ESU](https://www.microsoft.com/en-US/windows/extended-security-updates). **ULUTÜRK'ün ESU işleyişi henüz test edilmemiştir; ISO yayımlanmamıştır.**
+**[GitHub / kaynaklar ve testler](https://github.com/ozelturktarkan/Windows-10-ULUTURK)** · [r2 kaynak ve Türkçe dil paketleri](https://github.com/ozelturktarkan/Windows-10-ULUTURK/releases/tag/v1.0-r2). Büyük ISO bağlantısı bekleniyor. r1 kurulumu denetlendi; r2 yalnız üç dil dosyasını değiştirir ve ikinci kurulum yapılmadı. Güvenlik tercihleri ve test sınırları alt depoda açıklanır; güncel güvenlik/ESU garantisi verilmez.
+
+**22H2 x64v1 kaynak ISO'sunun SHA-256 değeri Microsoft'un resmî Türkçe 64-bit tablosuyla eşleşti.** Verilen Archive 22H2 sayfasındaki farklı ISO, birebir üretim kaynağı olarak sunulmaz. [Hashler, indirme referansları ve WIM bağlantısı](https://github.com/ozelturktarkan/Windows-10-ULUTURK/blob/main/KAYNAK-ISOLAR.md).
 
 ## Windows 11 ailesi
 
