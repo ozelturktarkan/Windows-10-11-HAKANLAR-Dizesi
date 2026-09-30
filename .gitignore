@@ -1,0 +1,12 @@
+*.iso
+*.wim
+*.esd
+*.vhd
+*.vhdx
+*.vdi
+*.vmdk
+*.log
+__pycache__/
+.env
+*token*
+.HAKANLAR-YAYIN-DURUMU.json
