@@ -167,9 +167,9 @@
       "edition": "Home",
       "version": "21H2",
       "build_family": "22000",
-      "full_build": null,
+      "full_build": "22000.194",
       "architecture": "x64",
-      "status": "preparing",
+      "status": "sources_published_iso_link_pending",
       "language_target": "tr-TR",
       "target_ram_gb": 1,
       "ram_is_project_target_not_official_minimum": true,
@@ -177,15 +177,17 @@
       "intended_use": "Deneysel VM/sabit iş yükü",
       "repository_url": "https://github.com/ozelturktarkan/Windows-11-UMAY",
       "iso_download_url": null,
-      "release_url": null,
-      "iso_bytes": null,
-      "iso_sha256": null,
+      "release_url": "https://github.com/ozelturktarkan/Windows-11-UMAY/releases/tag/v0.1-r1",
+      "iso_bytes": 4632555520,
+      "iso_sha256": "cb8498f871c8b6fd90fa9583c0527e807e553d5a265f53b80229ef633e94326c",
       "archive_verification": "not_available_iso_link_pending",
-      "test_evidence_url": null,
+      "test_evidence_url": "https://github.com/ozelturktarkan/Windows-11-UMAY/blob/main/reports/Test-Durumu.json",
       "notes": [
-        "RAM değeri proje hedefidir; doğrulanmış minimum değildir.",
-        "IoT/LTSC yerine Home 21H2 seçildi; üretim başlamadı."
-      ]
+        "1 GB RAM deney hedefidir; doğrulanmış minimum değildir.",
+        "Home 21H2 r1 üretildi; kurulum, ses ve internet testleri kullanıcı sonucunu bekliyor.",
+        "Özel arka plan/imleç/dock yok; dört efektli ilk oturum profili ve 21 ek tüketici uygulaması kaldırması var."
+      ],
+      "revision": "r1"
     },
     {
       "id": "windows-11-kizilelma",

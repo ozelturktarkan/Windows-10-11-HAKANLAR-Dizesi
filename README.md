@@ -94,11 +94,11 @@ Windows 10 Pro 22H2 x64, 19045.2965; **16 GB+ RAM ve SSD** hedefi. Kurulum testi
 
 ## Windows 11 ailesi
 
-**1 Ekim 2026:** Beş profilin kaynak depoları açıldı. UMAY 21H2 Home hazırlık aşamasında; KIZILELMA 22H2 Home, ALP ER TUNGA 23H2 Pro, ERTÜRK ve ULUTÜRK 25H2 Pro tabanındadır. Dört ISO'nun yerel üretim doğrulaması mevcut; bu kesin revizyonların kurulum testleri ve büyük ISO indirme bağlantıları bekleniyor.
+**1 Ekim 2026:** Beş profilin kaynak ve hashleri yayımlandı. UMAY 21H2 Home r1, KIZILELMA 22H2 Home, ALP ER TUNGA 23H2 Pro, ERTÜRK ve ULUTÜRK 25H2 Pro tabanındadır. Beş ISO'nun yerel üretim doğrulaması mevcut; bu kesin revizyonların kurulum testleri ve büyük ISO indirme bağlantıları bekleniyor.
 
 | Profil | Taban / yapı | RAM hedefi | Kaynaklar ve durum |
 | --- | --- | --- | --- |
-| **UMAY** | Home 21H2 x64 / 22000.194 | 1 GB+ | [Windows-11-UMAY](https://github.com/ozelturktarkan/Windows-11-UMAY) — Hazırlanıyor |
+| **UMAY** | Home 21H2 x64 / 22000.194 | 1 GB+ | [Windows-11-UMAY](https://github.com/ozelturktarkan/Windows-11-UMAY) — r1 kaynak ve hashleri yayımlandı; kurulum testi ve ISO bağlantısı bekleniyor |
 | **KIZILELMA** | Home 22H2 x64 / 22621.525 | 2 GB+ | [Windows-11-KIZILELMA](https://github.com/ozelturktarkan/Windows-11-KIZILELMA) — r2 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
 | **ALP ER TUNGA** | Pro 23H2 x64 / 22631.2428 | 4 GB+ | [Windows-11-ALP-ER-TUNGA](https://github.com/ozelturktarkan/Windows-11-ALP-ER-TUNGA) — r1 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
 | **ERTÜRK** | Pro 25H2 x64 / 26200.6584 | 8 GB+ | [Windows-11-ERTURK](https://github.com/ozelturktarkan/Windows-11-ERTURK) — r1 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
@@ -106,7 +106,7 @@ Windows 10 Pro 22H2 x64, 19045.2965; **16 GB+ RAM ve SSD** hedefi. Kurulum testi
 
 RAM sayıları proje hedefidir; doğrulanmış alt sınır değildir. UMAY'ın önceki IoT/LTSC planı bırakıldı. KIZILELMA r2 kendi duvar kâğıdı ve bayrak imlecini içerir; ALP ER TUNGA/ERTÜRK/ULUTÜRK ortak arka planı kullanır. ULUTÜRK ayrıca Türkçe MyDock ve otomatik gizlenen görev çubuğu içerir.
 
-Üretilen dört profilde Defender Antivirus, SmartScreen, Store ve Store Purchase App kaldırılmıştır. Tema ve TPM/Secure Boot/RAM temiz kurulum ekleri kaynak depolarındadır. Geniş hizmet budaması, dört efekt profilinin uygulandığı veya ölçülmüş hız artışı iddia edilmez. Pro sanallaştırma yükleri korunur; bu, çalışma testi anlamına gelmez.
+Beş profilde Defender Antivirus, SmartScreen, Store ve Store Purchase App kaldırılmıştır. TPM/Secure Boot/RAM temiz kurulum ekleri kaynak depolarındadır. UMAY r1 ayrıca 21 tüketici uygulamasını kaldırır ve dört efektli ilk oturum profilini uygular; özel arka plan, imleç ve dock içermez. Diğer dört profilde tema ekleri vardır; dört efekt profilinin uygulandığı iddia edilmez. Ölçülmüş hız artışı henüz yoktur. Pro sanallaştırma yükleri korunur; bu, çalışma testi anlamına gelmez.
 
 Önceki LTSC denemesinde 3 vCPU ile kurulum ilerlemiş, sonrasında siyah ekran yeniden görülmüştür. Kesin VM çözümü olarak sunulmaz. [Güncel sanal makine yönergesi](https://github.com/ozelturktarkan/Windows-11-KIZILELMA/blob/main/docs/SANAL-MAKINE.md) ağ kablosu, optik medya ve katılımsız kurulum ayrımını açıklar.
 
