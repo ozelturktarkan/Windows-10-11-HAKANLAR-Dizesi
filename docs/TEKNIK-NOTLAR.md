@@ -1,3 +1,5 @@
+> **1 Ekim 2026 güncellemesi:** Aşağıdaki LTSC/IoT açıklamaları önceki araştırma kaydıdır. Güncel UMAY tabanı Home 21H2 olarak seçildi; diğer Windows 11 tabanları [güncel yayın tablosunda](WINDOWS-11-YAYIN-20261001.md) yer alır. LTSC denemesinde 3 vCPU ile ilk ilerlemeden sonra siyah ekran yeniden görüldü; bu ayar kesin çözüm olarak doğrulanmadı.
+
 # Teknik notlar ve iddiaların sınırı
 
 **Kontrol tarihi: 30 Eylül 2026.** Bu belge kullanıcı tarafından seçilen tabanları değiştirmez; tanıtım metnindeki tasarım hedefleriyle doğrulanabilen teknik olguları ayırır. Kaynak listesi: [KAYNAKLAR.md](KAYNAKLAR.md).

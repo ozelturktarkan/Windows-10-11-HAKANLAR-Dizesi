@@ -6,7 +6,7 @@ Windows 10/11 **HAKANLAR Dizesi**, sanal makine laboratuvarlarından düşük do
 
 Bu depo ailenin **tanıtım, seçim ve yayın kataloğudur**. Windows kurulum dosyalarını barındırmaz. Her yayımlanan profilin kendi kaynak deposu, değişiklik listesi, test raporu ve ISO doğrulama kaydı bulunur. HAKANLAR, Microsoft'un resmî bir ürün ailesi değildir.
 
-> **Yayın durumu — 1 Ekim 2026:** Windows 10 UMAY, KIZILELMA, ALP ER TUNGA ve ERTÜRK r2 ISO bağlantıları yayımlandı. ULUTÜRK r2 ISO’su Archive’e yüklendi; proje sahibine göre işleniyor, dosya metaverisi eşleşti. Beş Windows 11 profili planlanan durumunda. Kaynak ISO doğrulaması ile son özelleştirilmiş ISO doğrulaması ayrı kayıtlardır. [Teknik notlar ve destek durumu](docs/TEKNIK-NOTLAR.md).
+> **Yayın durumu — 1 Ekim 2026:** Windows 10 yayınları aşağıdaki bağlantılarda. Windows 11 kaynak depoları açıldı: UMAY hazırlanıyor; diğer dört profilin XML, tema/kurulum ekleri ve ISO hashleri yayımlandı. Windows 11 büyük ISO bağlantıları ve kesin revizyon kurulum testleri bekleniyor.
 
 ## Ailenin mantığı
 
@@ -94,51 +94,25 @@ Windows 10 Pro 22H2 x64, 19045.2965; **16 GB+ RAM ve SSD** hedefi. Kurulum testi
 
 ## Windows 11 ailesi
 
-> **VirtualBox kurulum notu — 1 Ekim 2026:** Hyper-V üzerinden çalışan bazı VirtualBox yapılandırmalarında **2 sanal işlemciyle açılışta siyah ekran/takılma** görülebilir. Bizim Windows 11 UMAY ön testimizde **3 sanal işlemci, 4 GB RAM, 64 GB sanal disk, UEFI, TPM 2.0 ve Secure Boot** ile yeniden deneme işe yaradı. Tek işlemciye düşürmek Windows 11'in genel gereksinimini karşılamaz. Bu belirtiler tek başına ISO'nun bozuk olduğunu göstermez. [Deneme sonucu, çözüm adımları ve kaynaklar](docs/TEKNIK-NOTLAR.md#windows-11-virtualbox).
+**1 Ekim 2026:** Beş profilin kaynak depoları açıldı. UMAY 21H2 Home hazırlık aşamasında; KIZILELMA 22H2 Home, ALP ER TUNGA 23H2 Pro, ERTÜRK ve ULUTÜRK 25H2 Pro tabanındadır. Dört ISO'nun yerel üretim doğrulaması mevcut; bu kesin revizyonların kurulum testleri ve büyük ISO indirme bağlantıları bekleniyor.
 
-| Profil | Seçilen taban | Mimari / ana yapı ailesi | Hedef donanım | Yayın durumu |
-| --- | --- | --- | --- | --- |
-| **UMAY** | IoT Enterprise LTSC 2024, 24H2 tabanı | x64 / 26100 | 1 GB+ deneysel VM hedefi; SSD | Planlanan; resmî RAM sınırının altında |
-| **KIZILELMA** | Home, sürüm 21H2 | x64 / 22000 | 2 GB+ deneysel hedef; HDD/SSD | Planlanan; resmî RAM sınırının altında |
-| **ALP ER TUNGA** | Pro, sürüm 22H2 | x64 / 22621 | 4 GB+; SSD | Planlanan |
-| **ERTÜRK** | Pro, sürüm 23H2 | x64 / 22631 | 8 GB+; SSD | Planlanan |
-| **ULUTÜRK** | Pro, sürüm 24H2 | x64 / 26100 | 16 GB+; SSD | Planlanan |
+| Profil | Taban / yapı | RAM hedefi | Kaynaklar ve durum |
+| --- | --- | --- | --- |
+| **UMAY** | Home 21H2 x64 / 22000.194 | 1 GB+ | [Windows-11-UMAY](https://github.com/ozelturktarkan/Windows-11-UMAY) — Hazırlanıyor |
+| **KIZILELMA** | Home 22H2 x64 / 22621.525 | 2 GB+ | [Windows-11-KIZILELMA](https://github.com/ozelturktarkan/Windows-11-KIZILELMA) — r2 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
+| **ALP ER TUNGA** | Pro 23H2 x64 / 22631.2428 | 4 GB+ | [Windows-11-ALP-ER-TUNGA](https://github.com/ozelturktarkan/Windows-11-ALP-ER-TUNGA) — r1 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
+| **ERTÜRK** | Pro 25H2 x64 / 26200.6584 | 8 GB+ | [Windows-11-ERTURK](https://github.com/ozelturktarkan/Windows-11-ERTURK) — r1 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
+| **ULUTÜRK** | Pro 25H2 x64 / 26200.6584 | 16 GB+ | [Windows-11-ULUTURK](https://github.com/ozelturktarkan/Windows-11-ULUTURK) — r1 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
 
-Tabanlar proje planını gösterir; en güncel veya en güvenli sürüm sıralaması değildir. [Windows 11 sürüm kayıtları](https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information) · [Home/Pro destek tarihleri](https://learn.microsoft.com/tr-tr/lifecycle/products/windows-11-home-and-pro).
+RAM sayıları proje hedefidir; doğrulanmış alt sınır değildir. UMAY'ın önceki IoT/LTSC planı bırakıldı. KIZILELMA r2 kendi duvar kâğıdı ve bayrak imlecini içerir; ALP ER TUNGA/ERTÜRK/ULUTÜRK ortak arka planı kullanır. ULUTÜRK ayrıca Türkçe MyDock ve otomatik gizlenen görev çubuğu içerir.
 
-### Windows 11 UMAY — planlanan
+Üretilen dört profilde Defender Antivirus, SmartScreen, Store ve Store Purchase App kaldırılmıştır. Tema ve TPM/Secure Boot/RAM temiz kurulum ekleri kaynak depolarındadır. Geniş hizmet budaması, dört efekt profilinin uygulandığı veya ölçülmüş hız artışı iddia edilmez. Pro sanallaştırma yükleri korunur; bu, çalışma testi anlamına gelmez.
 
-**Sanal makine ve sabit test iş yükleri için agresif sadeleştirme.** Seçilen taban Windows 11 IoT Enterprise LTSC 2024, yani 24H2/26100 ailesidir. Bakım altyapısını koruyarak tüketici odaklı gereksiz bileşenleri azaltmak ve tekrarlanabilir bir laboratuvar ortamı oluşturmak hedeflenir.
+Önceki LTSC denemesinde 3 vCPU ile kurulum ilerlemiş, sonrasında siyah ekran yeniden görülmüştür. Kesin VM çözümü olarak sunulmaz. [Güncel sanal makine yönergesi](https://github.com/ozelturktarkan/Windows-11-KIZILELMA/blob/main/docs/SANAL-MAKINE.md) ağ kablosu, optik medya ve katılımsız kurulum ayrımını açıklar.
 
-LTSC tercihinin gerekçesi uzun süre aynı özellik tabanında kalabilmektir; **“10 yıl güncelleme almamak” değildir**. Microsoft bu ürün için aylık kalite güncellemeleri ve uzun destek döngüsü tanımlar. IoT sürümünün özel amaçlı/sabit işlevli kullanım ve lisans koşulları ayrıca değerlendirilmelidir. [Microsoft ürün açıklaması](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/whats-new/windows-11-iot-enterprise-ltsc-2024).
+## Windows 11 kaynak paketleri
 
-**1 GB+ RAM ve SSD bir deney hedefidir, doğrulanmış gereksinim değildir.** IoT LTSC için Microsoft'un isteğe bağlı en düşük bellek tablosu bile 2 GB gösterir; tercih edilen yapılandırma 4 GB'dır. Bu nedenle 1 GB ile açılış, kurulum, güncelleme ve yazılım çalıştırma ayrı ayrı denenmeden “kullanabilirsiniz” denmeyecektir. [IoT gereksinimleri](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/Hardware/System_Requirements).
-
-VMware/VirtualBox uyumluluğunun kusursuzluğu, 21H2'den her koşulda daha hızlı oluşu veya “Microsoft'un en hafif tabanı” olduğu ileri sürülmez. **Henüz ISO ve performans raporu yoktur.**
-
-### Windows 11 KIZILELMA — planlanan
-
-**Düşük kaynaklı VM ve test laboratuvarı profili.** Home 21H2 x64 tabanı üzerinde, tüketici uygulamalarının mümkün olduğunca azaltıldığı bir ortam hedeflenir. Sistem için gerekli uygulama altyapısı ile kaldırılabilecek UWP uygulamaları aynı şey değildir; “bütün UWP altyapısı yok” ifadesi doğrulanmadan kullanılmaz.
-
-**2 GB+ RAM ve HDD/SSD deney hedefidir.** Windows 11 Home'un resmî 4 GB RAM sınırının altındadır. Ayrıca Home 21H2 destek dışıdır. Windows 10 KIZILELMA'nın temel masaüstü yönünden farklı olarak bu Windows 11 taslağı VM/test odaklı tutulmuştur; günlük kullanım kararlılığı iddia edilmez. **Henüz ISO veya test raporu yoktur.**
-
-### Windows 11 ALP ER TUNGA — planlanan
-
-**Pro işlevlerini ve kurumsal kullanım bileşenlerini koruma hedefi.** Pro 22H2 x64 tabanında sanallaştırma, ağ yönetimi ve gerekli bakım bileşenlerini koruyan düşük/orta sınıf profil tasarlanır. Hedef 4 GB+ RAM ve SSD'dir.
-
-Bu miktar her uygulama için yeterlilik sözü değildir. Home/Pro 22H2 desteği sona erdiği için profil “uzun vadeli güncel güvenlik desteği” vaadiyle sunulmaz. Sanallaştırma ve ağ işlevleri kullanılan özellik/sürücü düzeyinde test edilecektir. **Henüz ISO veya test raporu yoktur.**
-
-### Windows 11 ERTÜRK — planlanan
-
-**Dengeli uygulama ve oyun işlevleri hedefi.** Pro 23H2 x64 tabanı; 8 GB+ RAM ve SSD. Mağaza, oyunla ilişkili gerekli bileşenler ve uygulama bağımlılıkları korunurken arka plan yükünü azaltmak amaçlanır.
-
-“Bütün oyun ve anti-cheat sistemleriyle tam uyum” garantisi verilmez. Uyum, adları ve sürümleri belirtilen oyunlar üzerinde, güncel gereksinimlerle test edilmelidir. Pro 23H2 destek dışıdır; bu sınıfın günlük kullanım hattı için desteklenen bir tabana geçiş ayrıca değerlendirilmelidir. **Henüz ISO veya test raporu yoktur.**
-
-### Windows 11 ULUTÜRK — planlanan
-
-**Daha güçlü donanımda en az işlev kaybı hedefi.** Pro 24H2 x64 tabanı; 16 GB+ RAM ve SSD. Copilot/Recall gibi istenmeyen özellikleri hedefleyen sınırlı ve belgelenmiş değişiklikler planlanır. Hangi bileşenin gerçekten bulunduğu, kaldırıldığı veya yalnız ayarla kapatıldığı sürüm bazında gösterilecektir.
-
-Hibrit işlemcilerde zamanlayıcı ve sürücü uyumluluğu test edilecektir; “bütün yeni mimarileri eksiksiz yönetir” veya “kaya gibi sağlam” gibi ölçülmemiş sonuçlar yazılmaz. **24H2, 30 Eylül 2026 itibarıyla en yeni Windows 11 değildir ve Home/Pro desteği 13 Ekim 2026'da sona ermektedir.** Bu taban, planlanan 24H2 profili olarak korunur; güncel günlük kullanım hattı için destekli bir sürüm ayrıca seçilmelidir. [Microsoft sürüm/destek tablosu](https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information). **Henüz ISO veya test raporu yoktur.**
+Kaynak ZIP'leri Windows ISO'su değildir. XML, kurulum ekleri, ayrı indirilebilir arka plan/imleç ve hash kayıtları alt depolardadır. ULUTÜRK'ün dock EXE/DLL dosyaları GitHub'da yoktur; Türkçe dil dosyaları ve gereken yükün hash manifesti paylaşılır. Son ISO test ve indirme durumunu her alt deponun README'sinden kontrol edin.
 
 ## Dürüstçe kırpma ilkeleri
 
