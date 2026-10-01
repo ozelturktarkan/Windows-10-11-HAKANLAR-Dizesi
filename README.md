@@ -94,6 +94,8 @@ Windows 10 Pro 22H2 x64, 19045.2965; **16 GB+ RAM ve SSD** hedefi. Kurulum testi
 
 ## Windows 11 ailesi
 
+> **VirtualBox kurulum notu — 1 Ekim 2026:** Hyper-V üzerinden çalışan bazı VirtualBox yapılandırmalarında **2 sanal işlemciyle açılışta siyah ekran/takılma** görülebilir. Bizim Windows 11 UMAY ön testimizde **3 sanal işlemci, 4 GB RAM, 64 GB sanal disk, UEFI, TPM 2.0 ve Secure Boot** ile yeniden deneme işe yaradı. Tek işlemciye düşürmek Windows 11'in genel gereksinimini karşılamaz. Bu belirtiler tek başına ISO'nun bozuk olduğunu göstermez. [Deneme sonucu, çözüm adımları ve kaynaklar](docs/TEKNIK-NOTLAR.md#windows-11-virtualbox).
+
 | Profil | Seçilen taban | Mimari / ana yapı ailesi | Hedef donanım | Yayın durumu |
 | --- | --- | --- | --- | --- |
 | **UMAY** | IoT Enterprise LTSC 2024, 24H2 tabanı | x64 / 26100 | 1 GB+ deneysel VM hedefi; SSD | Planlanan; resmî RAM sınırının altında |

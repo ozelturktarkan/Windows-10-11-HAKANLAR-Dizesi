@@ -30,6 +30,28 @@ Bu nedenle Windows 11 UMAY için **1 GB**, Windows 11 KIZILELMA için **2 GB** y
 
 Windows 10 UMAY'ın 1.024 MiB VM kaydı, farklı Windows 11 UMAY tabanına aktarılmış bir test sayılmaz. 4/8/16 GB sınıfları da Windows'un zorunlu RAM miktarı değil, bu proje tarafından seçilen hedeflerdir.
 
+<a id="windows-11-virtualbox"></a>
+
+## Windows 11: VirtualBox açılış ve gereksinim uyarıları
+
+**Ön test kaydı: 1 Ekim 2026.** Ana bilgisayarda Windows 11 bulunması, sanal makineye yeterli işlemci, RAM veya sanal TPM'nin otomatik olarak verildiği anlamına gelmez. Microsoft'un genel Windows 11 VM gereksinimleri en az **2 sanal işlemci, 4 GB RAM, 64 GB disk**, Secure Boot yeteneği ve sanal TPM içerir. [Microsoft VM gereksinimleri](https://learn.microsoft.com/en-us/windows/whats-new/windows-11-requirements#virtual-machine-support).
+
+Windows 11 UMAY hazırlığındaki Türkçe **Enterprise LTSC 2024, 26100.1742** denemesinde iki ayrı belirti gözlendi:
+
+| Yapılandırma | Gözlem |
+| --- | --- |
+| 1 sanal işlemci | Kurulum açıldı, ardından sistem gereksinimleri uyarısı çıktı. Hangi kontrolün reddettiği günlükten ayrıştırılmadı; 1 işlemci zaten genel VM alt sınırını karşılamıyor. |
+| 2 sanal işlemci, x2APIC açık | Windows başlamadan UEFI aşamasında takılma yeniden gözlendi; günlük `DXE_AP` noktasında kaldı. |
+| 3 sanal işlemci, x2APIC açık | Aynı ISO ile kurulum ekranı açıldı; kullanıcı yeniden denemenin işe yaradığını bildirdi. |
+
+Bu test **VirtualBox 7.2.20 r175154**, Windows 11 ana bilgisayar ve **NEM/Windows Hypervisor** çalıştırma yolu üzerindedir. VirtualBox projesindeki açık [#799 hata bildirimi](https://github.com/VirtualBox/virtualbox/issues/799), benzer ortamda tam 2 işlemciyle takılma ve 3 işlemciyle açılma tarif eder. Bu bir kullanıcı hata bildirimidir; tüm VirtualBox sürümleri ve bilgisayarlar için doğrulanmış genel kural değildir.
+
+**Benzer durumda:** Sanal makineyi tamamen kapatın. VirtualBox → Ayarlar → Sistem → İşlemci bölümünde **3 işlemciyi deneyin**; ana bilgisayarın fiziksel çekirdek kapasitesini aşmayın. Bizim denemedeki diğer ayarlar **4.096 MiB RAM, 64 GiB dinamik sanal disk, UEFI, TPM 2.0, Secure Boot ve I/O APIC açık** şeklindedir. [Oracle sistem ayarları](https://docs.oracle.com/en/virtualization/virtualbox/7.2/user/working-with-vms.html). Bu çözüm için ana bilgisayarın Hyper-V/VBS ayarları değiştirilmedi.
+
+**Testin sınırı:** Deneme medyasında önceden eklenmiş WinPE `LabConfig` atlatma komutları vardı; bu kayıt onların çalıştığını veya atlatmasız bir kurulumun doğrulandığını göstermez. İşlemci karşılaştırmasında ISO değiştirilmedi. Tam kurulum, IoT edisyon geçişi, etkinleştirme ve uzun dönem kararlılık bu ön testle doğrulanmış sayılmaz. Buradaki 4 GB test ayarı, UMAY'ın deneysel 1 GB hedefinin gerçekleştiği anlamına gelmez.
+
+Bu belirtiler tek başına ISO bozukluğu kanıtı değildir. Sorun sürerse konu açarken **Windows/VirtualBox sürümünü, VM işlemci/RAM/UEFI/TPM ayarlarını, tam hata metnini ve ISO SHA-256 karşılaştırma sonucunu** belirtin; günlük paylaşmadan önce kişisel dosya yollarını ve diğer özel bilgileri ayıklayın.
+
 ## Güncelleme desteği: 30 Eylül 2026 görünümü
 
 | Taban | Resmî durumun katalog açısından anlamı |
