@@ -6,7 +6,7 @@ Windows 10/11 **HAKANLAR Dizesi**, sanal makine laboratuvarlarından düşük do
 
 Bu depo ailenin **tanıtım, seçim ve yayın kataloğudur**. Windows kurulum dosyalarını barındırmaz. Her yayımlanan profilin kendi kaynak deposu, değişiklik listesi, test raporu ve ISO doğrulama kaydı bulunur. HAKANLAR, Microsoft'un resmî bir ürün ailesi değildir.
 
-> **Yayın durumu — 1 Ekim 2026:** Windows 10 UMAY, KIZILELMA, ALP ER TUNGA ve ERTÜRK r2 ISO bağlantıları yayımlandı. ULUTÜRK r2 kaynakları GitHub’da; ISO Archive’e yükleniyor. Beş Windows 11 profili planlanan durumunda. Kaynak ISO doğrulaması ile son özelleştirilmiş ISO doğrulaması ayrı kayıtlardır. [Teknik notlar ve destek durumu](docs/TEKNIK-NOTLAR.md).
+> **Yayın durumu — 1 Ekim 2026:** Windows 10 UMAY, KIZILELMA, ALP ER TUNGA ve ERTÜRK r2 ISO bağlantıları yayımlandı. ULUTÜRK r2 ISO’su Archive’e yüklendi; proje sahibine göre işleniyor, dosya metaverisi eşleşti. Beş Windows 11 profili planlanan durumunda. Kaynak ISO doğrulaması ile son özelleştirilmiş ISO doğrulaması ayrı kayıtlardır. [Teknik notlar ve destek durumu](docs/TEKNIK-NOTLAR.md).
 
 ## Ailenin mantığı
 
@@ -28,7 +28,7 @@ Bu değerler **Microsoft'un asgari gereksinimleri değildir**. İş yükü, sür
 | **KIZILELMA** | Home, sürüm 1607 | x86 / 14393 | 2 GB+; HDD, SSD tercih edilir | Yayımlandı; sınırlar aşağıda |
 | **ALP ER TUNGA** | Pro, sürüm 1607 | x64 / 14393 | 4 GB+; SSD | [ISO ve kaynaklar yayımlandı](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA) |
 | **ERTÜRK** | Pro, sürüm 1909 | x64 / 18363 | 8 GB+; SSD | [r2 ISO ve kaynakları yayımlandı](https://archive.org/details/windows-10-erturk) |
-| **ULUTÜRK** | Pro, sürüm 22H2 | x64 / 19045 | 16 GB+; SSD | [r2 kaynakları yayımlandı](https://github.com/ozelturktarkan/Windows-10-ULUTURK); [ISO yükleniyor](https://archive.org/details/windows-10-uluturk) |
+| **ULUTÜRK** | Pro, sürüm 22H2 | x64 / 19045 | 16 GB+; SSD | [r2 kaynakları yayımlandı](https://github.com/ozelturktarkan/Windows-10-ULUTURK); [ISO yüklendi; işleniyor](https://archive.org/details/windows-10-uluturk) |
 
 Sürüm adları ve yapı aileleri farklı alanlardır; örneğin **1909 sürüm**, **18363 yapı ailesidir**. [Microsoft sürüm kaydı](https://learn.microsoft.com/en-us/windows/release-health/release-information).
 
@@ -84,11 +84,11 @@ Windows 10 Pro 1909 x64, 18363.959; **8 GB+ RAM ve SSD** hedefi. Kurulum testi 4
 
 1909 kaynak ISO'sunun boyut/SHA-1/MD5 değerleri Archive metaverisiyle, gömülü WIM üretim kaynağıyla eşleşti. **Resmî Microsoft hash referansı bulunamadığından Microsoft özgünlüğü bağımsız doğrulanmadı.** [Kaynak bağlantısı ve tam rapor](https://github.com/ozelturktarkan/Windows-10-ERTURK/blob/main/KAYNAK-ISOLAR.md).
 
-### Windows 10 ULUTÜRK — r2 kaynakları yayımlandı
+### Windows 10 ULUTÜRK — r2 ISO yüklendi
 
 Windows 10 Pro 22H2 x64, 19045.2965; **16 GB+ RAM ve SSD** hedefi. Kurulum testi 4 GB RAM / 1 vCPU ile yapıldı. Store ve temel uygulamalar korundu. MyDock 5.10.1, Türkçe dil dosyaları, otomatik gizlenen görev çubuğu ve dört efektli profil bulunur. Üçüncü taraf dock ikilileri GitHub paketinde yoktur; yeniden üretim için hash ile tanımlanan arşiv ayrıca gerekir.
 
-**[GitHub / kaynaklar ve testler](https://github.com/ozelturktarkan/Windows-10-ULUTURK)** · [r2 kaynak ve Türkçe dil paketleri](https://github.com/ozelturktarkan/Windows-10-ULUTURK/releases/tag/v1.0-r2). **[ULUTÜRK ISO yükleniyor](https://archive.org/details/windows-10-uluturk)**; henüz indirme/hash doğrulaması yapılmadı. r1 kurulumu denetlendi; r2 yalnız üç dil dosyasını değiştirir ve ikinci kurulum yapılmadı. Güvenlik tercihleri ve test sınırları alt depoda açıklanır; güncel güvenlik/ESU garantisi verilmez.
+**[GitHub / kaynaklar ve testler](https://github.com/ozelturktarkan/Windows-10-ULUTURK)** · [r2 kaynak ve Türkçe dil paketleri](https://github.com/ozelturktarkan/Windows-10-ULUTURK/releases/tag/v1.0-r2). **[ULUTÜRK ISO yüklendi](https://archive.org/details/windows-10-uluturk)**; proje sahibine göre Archive işlemesi sürüyor. Dosya listesinde 5.161.299.968 baytlık ISO görünüyor; boyut/SHA-1/MD5 son r2 kaydıyla eşleşti. Doğrudan indirme erişimi ve tam dosya SHA-256 hesabı ayrıca doğrulanmadı. [Durum kaydı](https://github.com/ozelturktarkan/Windows-10-ULUTURK/blob/main/Archive-Durumu.json). r1 kurulumu denetlendi; r2 yalnız üç dil dosyasını değiştirir ve ikinci kurulum yapılmadı. Güvenlik tercihleri ve test sınırları alt depoda açıklanır; güncel güvenlik/ESU garantisi verilmez.
 
 **22H2 x64v1 kaynak ISO'sunun SHA-256 değeri Microsoft'un resmî Türkçe 64-bit tablosuyla eşleşti.** Verilen Archive 22H2 sayfasındaki farklı ISO, birebir üretim kaynağı olarak sunulmaz. [Hashler, indirme referansları ve WIM bağlantısı](https://github.com/ozelturktarkan/Windows-10-ULUTURK/blob/main/KAYNAK-ISOLAR.md).
 
