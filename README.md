@@ -13,7 +13,7 @@ Bu depo ailenin **tanıtım, seçim ve yayın kataloğudur**. Windows kurulum do
 | Profil | Tasarım yönü | Proje hedefi olan bellek sınıfı |
 | --- | --- | --- |
 | **UMAY** | Sanal makine ve yazılım denemeleri; en agresif sadeleştirme | 1 GB+ |
-| **KIZILELMA** | Çok düşük kaynak tüketimi; Windows 10'da temel masaüstü, Windows 11 taslağında VM/test | 2 GB+ |
+| **KIZILELMA** | Çok düşük kaynak tüketimi; Windows 10'da temel masaüstü | 2 GB+ |
 | **ALP ER TUNGA** | Daha geniş Pro işlevleri; düşük/orta donanım sınıfı | 4 GB+ |
 | **ERTÜRK** | Uygulama uyumluluğu ve kaynak kullanımı arasında denge | 8 GB+ |
 | **ULUTÜRK** | Daha güçlü donanımda sınırlı müdahale ve geniş işlev kümesi | 16 GB+ |
