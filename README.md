@@ -98,7 +98,7 @@ Windows 10 Pro 22H2 x64, 19045.2965; **16 GB+ RAM ve SSD** hedefi. Kurulum testi
 
 | Profil | Taban / yapı | Ana hedefi | Kaynaklar ve durum |
 | --- | --- | --- | --- |
-| **UMAY** | Home 21H2 x64 / 22000.194 | Sanal Bilgisayarlar (Çalışması için sanal makinaya en az 3çekirdek + 4gb bellek verin!) | [Windows-11-UMAY](https://github.com/ozelturktarkan/Windows-11-UMAY) — r2 kaynak ve hashleri yayımlandı; kurulum testi ve ISO bağlantısı bekleniyor |
+| **UMAY** | Home 21H2 x64 / 22000.194 | Sanal Bilgisayarlar (Çalışması için sanal makinaya en az 3 çekirdek + en az 4gb bellek verin!) | [Windows-11-UMAY](https://github.com/ozelturktarkan/Windows-11-UMAY) — r2 kaynak ve hashleri yayımlandı; kurulum testi ve ISO bağlantısı bekleniyor |
 | **KIZILELMA** | Home 22H2 x64 / 22621.525 | Çok Eski Donanımlı Bilgisayarın ilk Denemesi gereken sürüm | [Windows-11-KIZILELMA](https://github.com/ozelturktarkan/Windows-11-KIZILELMA) — r2 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
 | **ALP ER TUNGA** | Pro 23H2 x64 / 22631.2428 | Eski 2. ve 11. nesil i3-i5-i7 ve eşdeğer amd işlemcilerin denemesi gereken sürüm | [Windows-11-ALP-ER-TUNGA](https://github.com/ozelturktarkan/Windows-11-ALP-ER-TUNGA) — r1 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
 | **ERTÜRK** | Pro 25H2 x64 / 26200.6584 | 12. nesil ve üzeri işlemcilerin denemesi gereken sürüm | [Windows-11-ERTURK](https://github.com/ozelturktarkan/Windows-11-ERTURK) — r1 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
