@@ -24,7 +24,7 @@ Bu değerler **Microsoft'un asgari gereksinimleri değildir**. İş yükü, sür
 
 | Profil | Seçilen taban | Mimari / ana yapı ailesi | Hedef donanım | Yayın durumu |
 | --- | --- | --- | --- | --- |
-| **UMAY** | Home, sürüm 1607 | x86 / 14393 | En az 1 GB+ Bellek. Sanal makina - yazılım denemeleri için | [r5 ISO ve kaynakları yayımlandı](https://github.com/ozelturktarkan/Windows-10-UMAY) |
+| **UMAY** | Home, sürüm 1607 | x86 / 14393 | En az 1 GB+ Bellek. Sanal makina ve yazılım denemeleri için hazırlandı | [r5 ISO ve kaynakları yayımlandı](https://github.com/ozelturktarkan/Windows-10-UMAY) |
 | **KIZILELMA** | Home, sürüm 1607 | x86 / 14393 | 2 GB+ bellek ve HDD, SSD tercih edilir | [ISO ve kaynaklar yayımlandı](https://github.com/ozelturktarkan/Windows-10-KIZILELMA) |
 | **ALP ER TUNGA** | Pro, sürüm 1607 | x64 / 14393 | 4 GB+ bellek ve SSD | [ISO ve kaynaklar yayımlandı](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA) |
 | **ERTÜRK** | Pro, sürüm 1909 | x64 / 18363 | 8 GB+ bellek ve SSD | [r2 ISO ve kaynakları yayımlandı](https://archive.org/details/windows-10-erturk) |
