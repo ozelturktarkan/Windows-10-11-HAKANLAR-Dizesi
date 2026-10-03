@@ -24,11 +24,11 @@ Bu değerler **Microsoft'un asgari gereksinimleri değildir**. İş yükü, sür
 
 | Profil | Seçilen taban | Mimari / ana yapı ailesi | Hedef donanım | Yayın durumu |
 | --- | --- | --- | --- | --- |
-| **UMAY** | Home, sürüm 1607 | x86 / 14393 | 1 GB+; VM/test | Yayımlandı; sınırlar aşağıda |
-| **KIZILELMA** | Home, sürüm 1607 | x86 / 14393 | 2 GB+; HDD, SSD tercih edilir | Yayımlandı; sınırlar aşağıda |
-| **ALP ER TUNGA** | Pro, sürüm 1607 | x64 / 14393 | 4 GB+; SSD | [ISO ve kaynaklar yayımlandı](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA) |
-| **ERTÜRK** | Pro, sürüm 1909 | x64 / 18363 | 8 GB+; SSD | [r2 ISO ve kaynakları yayımlandı](https://archive.org/details/windows-10-erturk) |
-| **ULUTÜRK** | Pro, sürüm 22H2 | x64 / 19045 | 16 GB+; SSD | [r2 kaynakları yayımlandı](https://github.com/ozelturktarkan/Windows-10-ULUTURK); [ISO yüklendi; işleniyor](https://archive.org/details/windows-10-uluturk) |
+| **UMAY** | Home, sürüm 1607 | x86 / 14393 | 1 GB+ Sanal makina - yazılım denemeleri için | [r5 ISO ve kaynakları yayımlandı](https://github.com/ozelturktarkan/Windows-10-UMAY) |
+| **KIZILELMA** | Home, sürüm 1607 | x86 / 14393 | 2 GB+ HDD, SSD tercih edilir | [ISO ve kaynaklar yayımlandı](https://github.com/ozelturktarkan/Windows-10-KIZILELMA) |
+| **ALP ER TUNGA** | Pro, sürüm 1607 | x64 / 14393 | 4 GB+ SSD | [ISO ve kaynaklar yayımlandı](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA) |
+| **ERTÜRK** | Pro, sürüm 1909 | x64 / 18363 | 8 GB+ SSD | [r2 ISO ve kaynakları yayımlandı](https://archive.org/details/windows-10-erturk) |
+| **ULUTÜRK** | Pro, sürüm 22H2 | x64 / 19045 | 16 GB+ SSD | [r2 kaynakları yayımlandı](https://github.com/ozelturktarkan/Windows-10-ULUTURK); [ISO yüklendi; işleniyor](https://archive.org/details/windows-10-uluturk) |
 
 Sürüm adları ve yapı aileleri farklı alanlardır; örneğin **1909 sürüm**, **18363 yapı ailesidir**. [Microsoft sürüm kaydı](https://learn.microsoft.com/en-us/windows/release-health/release-information).
 
