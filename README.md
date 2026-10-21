@@ -1,8 +1,8 @@
-# Windows 10/11 HAKANLAR Dizesi
+# Windows 10 HAKANLAR Dizesi
 
 **Her amaca tek bir ISO değil; kullanım amacına göre, neyin değiştiği açıkça belgelenmiş Windows profilleri.**
 
-Windows 10/11 **HAKANLAR Dizesi**, sanal makine laboratuvarlarından düşük donanımlı masaüstlerine ve daha güçlü bilgisayarlara uzanan bir Windows özelleştirme ailesidir. “Dürüstçe kırpılmış” yaklaşımımız, yalnızca az RAM tüketmek değil; kaldırılanları, korunanları, geri eklenebilenleri ve test edilmemiş noktaları açıkça göstermektir.
+Windows 10 **HAKANLAR Dizesi**, sanal makine laboratuvarlarından düşük donanımlı masaüstlerine ve daha güçlü bilgisayarlara uzanan bir Windows özelleştirme ailesidir. “Dürüstçe kırpılmış” yaklaşımımız, yalnızca az RAM tüketmek değil; kaldırılanları, korunanları, geri eklenebilenleri ve test edilmemiş noktaları açıkça göstermektir.
 
 Bu depo ailenin **tanıtım, seçim ve yayın kataloğudur**. Windows kurulum dosyalarını barındırmaz. Her yayımlanan profilin kendi kaynak deposu, değişiklik listesi, test raporu ve ISO doğrulama kaydı bulunur. HAKANLAR, Microsoft'un resmî bir ürün ailesi değildir.
 
@@ -17,8 +17,9 @@ Bu depo ailenin **tanıtım, seçim ve yayın kataloğudur**. Windows kurulum do
 | **ALP ER TUNGA** | Daha geniş Pro işlevleri; düşük/orta donanım sınıfı | 4 GB+ |
 | **ERTÜRK** | Uygulama uyumluluğu ve kaynak kullanımı arasında denge | 8 GB+ |
 | **ULUTÜRK** | Daha güçlü donanımda sınırlı müdahale ve geniş işlev kümesi | 16 GB+ |
+| **ULUTÜRK 20H2** | Windows 10 20H2 Üzerindeki ustalık eserim | 16 GB+ |
 
-Bu değerler **Microsoft'un asgari gereksinimleri değildir**. İş yükü, sürücüler, disk ve güvenlik ayarları sonucu değiştirir. VM satırlarında bellek, konuk işletim sistemine ayrılan RAM'dir; ana bilgisayarın ayrıca kaynağa ihtiyacı vardır. Windows 11 UMAY'ın 1 GB ve Windows 11 KIZILELMA'nın 2 GB hedefleri henüz doğrulanmamış, resmî bellek alt sınırlarının altında kalan deneylerdir. [Donanım notları](docs/TEKNIK-NOTLAR.md#bellek-hedefi).
+Bu değerler **Microsoft'un asgari gereksinimleri değildir**. İş yükü, sürücüler, disk ve güvenlik ayarları sonucu değiştirir. VM satırlarında bellek, konuk işletim sistemine ayrılan RAM'dir; ana bilgisayarın ayrıca kaynağa ihtiyacı vardır.
 
 ## Windows 10 ailesi
 
@@ -92,27 +93,6 @@ Windows 10 Pro 22H2 x64, 19045.2965; **16 GB+ RAM ve SSD** hedefi. Kurulum testi
 
 **22H2 x64v1 kaynak ISO'sunun SHA-256 değeri Microsoft'un resmî Türkçe 64-bit tablosuyla eşleşti.** Verilen Archive 22H2 sayfasındaki farklı ISO, birebir üretim kaynağı olarak sunulmaz. [Hashler, indirme referansları ve WIM bağlantısı](https://github.com/ozelturktarkan/Windows-10-ULUTURK/blob/main/KAYNAK-ISOLAR.md).
 
-## Windows 11 ailesi
-
-**1 Ekim 2026:** Beş profilin kaynak ve hashleri yayımlandı. UMAY 21H2 Home r2, KIZILELMA 22H2 Home, ALP ER TUNGA 23H2 Pro, ERTÜRK ve ULUTÜRK 25H2 Pro tabanındadır. Beş ISO'nun yerel üretim doğrulaması mevcut; bu kesin revizyonların kurulum testleri ve büyük ISO indirme bağlantıları bekleniyor.
-
-| Profil | Taban / yapı | Ana hedefi | Kaynaklar ve durum |
-| --- | --- | --- | --- |
-| **UMAY** | Home 21H2 x64 / 22000.194 | Sanal Bilgisayarlar (Çalışması için sanal makinaya en az 3 çekirdek + en az 4gb bellek verin!) | [Windows-11-UMAY](https://github.com/ozelturktarkan/Windows-11-UMAY) — r2 kaynak ve hashleri yayımlandı; kurulum testi ve ISO bağlantısı bekleniyor |
-| **KIZILELMA** | Home 22H2 x64 / 22621.525 | Çok Eski Donanımlı Bilgisayarın ilk Denemesi gereken sürüm | [Windows-11-KIZILELMA](https://github.com/ozelturktarkan/Windows-11-KIZILELMA) — r2 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
-| **ALP ER TUNGA** | Pro 23H2 x64 / 22631.2428 | Eski 2. ve 11. nesil i3-i5-i7 ve eşdeğer amd işlemcilerin denemesi gereken sürüm | [Windows-11-ALP-ER-TUNGA](https://github.com/ozelturktarkan/Windows-11-ALP-ER-TUNGA) — r1 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
-| **ERTÜRK** | Pro 25H2 x64 / 26200.6584 | 12. nesil ve üzeri işlemcilerin denemesi gereken sürüm | [Windows-11-ERTURK](https://github.com/ozelturktarkan/Windows-11-ERTURK) — r1 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
-| **ULUTÜRK** | Pro 25H2 x64 / 26200.6584 | ERTÜRK sürümünün temel olarak aynısı, artı olarak görsellik iyileştirmesi ve mac görünümü eklendi | [Windows-11-ULUTURK](https://github.com/ozelturktarkan/Windows-11-ULUTURK) — r1 kaynak ve hashleri yayımlandı; ISO bağlantısı bekleniyor |
-
-RAM sayıları proje hedefidir; doğrulanmış alt sınır değildir. UMAY'ın önceki IoT/LTSC planı bırakıldı. KIZILELMA r2 kendi duvar kâğıdı ve bayrak imlecini içerir; ALP ER TUNGA/ERTÜRK/ULUTÜRK ortak arka planı kullanır. ULUTÜRK ayrıca Türkçe MyDock ve otomatik gizlenen görev çubuğu içerir.
-
-Beş profilde Defender Antivirus, SmartScreen, Store ve Store Purchase App kaldırılmıştır. TPM/Secure Boot/RAM temiz kurulum ekleri kaynak depolarındadır. UMAY r2 ayrıca 21 tüketici uygulamasını kaldırır ve dört efektli ilk oturum profilini uygular; özel arka plan, imleç ve dock içermez. Diğer dört profilde tema ekleri vardır; dört efekt profilinin uygulandığı iddia edilmez. Ölçülmüş hız artışı henüz yoktur. Pro sanallaştırma yükleri korunur; bu, çalışma testi anlamına gelmez.
-
-Önceki LTSC denemesinde 3 vCPU ile kurulum ilerlemiş, sonrasında siyah ekran yeniden görülmüştür. Kesin VM çözümü olarak sunulmaz. [Güncel sanal makine yönergesi](https://github.com/ozelturktarkan/Windows-11-KIZILELMA/blob/main/docs/SANAL-MAKINE.md) ağ kablosu, optik medya ve katılımsız kurulum ayrımını açıklar.
-
-## Windows 11 kaynak paketleri
-
-Kaynak ZIP'leri Windows ISO'su değildir. XML, kurulum ekleri, ayrı indirilebilir arka plan/imleç ve hash kayıtları alt depolardadır. ULUTÜRK'ün dock EXE/DLL dosyaları GitHub'da yoktur; Türkçe dil dosyaları ve gereken yükün hash manifesti paylaşılır. Son ISO test ve indirme durumunu her alt deponun README'sinden kontrol edin.
 
 ## Dürüstçe kırpma ilkeleri
 
