@@ -17,7 +17,7 @@ Bu depo ailenin **tanıtım, seçim ve yayın kataloğudur**. Windows kurulum do
 | **ALP ER TUNGA** | Daha geniş Pro işlevleri; düşük/orta donanım sınıfı | 4 GB+ |
 | **ERTÜRK** | Uygulama uyumluluğu ve kaynak kullanımı arasında denge | 8 GB+ |
 | **ULUTÜRK** | Daha güçlü donanımda sınırlı müdahale ve geniş işlev kümesi | 16 GB+ |
-| **ULUTÜRK 20H2** | Windows 10 20H2 Üzerindeki ustalık eserim | 16 GB+ |
+| **ULUTÜRK 20H2** | Windows 10 20H2 Üzerindeki ustalık eserim **MUTLAKA ÖNERİRİM** | 16 GB+ |
 
 Bu değerler **Microsoft'un asgari gereksinimleri değildir**. İş yükü, sürücüler, disk ve güvenlik ayarları sonucu değiştirir. VM satırlarında bellek, konuk işletim sistemine ayrılan RAM'dir; ana bilgisayarın ayrıca kaynağa ihtiyacı vardır.
 
@@ -59,7 +59,7 @@ Windows Update hizmeti başlangıçta kapalıdır; bakım altyapısı korunur ve
 
 **Arşiv doğrulama düzeyi:** Mevcut raporda 2.645.475.328 baytın tamamının okunarak SHA-256, SHA-1 ve MD5 eşleşmesinin doğrulandığı kayıtlıdır. [Tam dosya doğrulaması](https://github.com/ozelturktarkan/Windows-10-KIZILELMA/blob/main/ISO-DOGRULAMA.json). Hash eşleşmesi güvenlik taraması değildir.
 
-### Windows 10 ALP ER TUNGA — yayımlandı
+### Windows 10 ALP ER TUNGA
 
 **Pro işlevlerini daha fazla koruyan, eski x64 bilgisayarlar için profil.** Windows 10 Pro 1607 x64 (14393.0) tabanı; **4 GB+ RAM ve SSD** hedeflenir. Geçerli sürüm **r4 Mağazasız**dır.
 
