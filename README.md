@@ -17,7 +17,7 @@ Bu depo ailenin **tanıtım, seçim ve yayın kataloğudur**. Windows kurulum do
 | **ALP ER TUNGA** | Daha geniş Pro işlevleri; düşük/orta donanım sınıfı | 4 GB+ |
 | **ERTÜRK** | Uygulama uyumluluğu ve kaynak kullanımı arasında denge | 8 GB+ |
 | **ULUTÜRK** | Daha güçlü donanımda sınırlı müdahale ve geniş işlev kümesi | 16 GB+ |
-| **ULUTÜRK 20H2** | Windows 10 20H2 Üzerindeki ustalık eserim **MUTLAKA ÖNERİRİM** | 16 GB+ |
+| **ULUTÜRK 20H2** | Windows 10 20H2 Üzerindeki ustalık eserim - **MUTLAKA ÖNERİRİM** | 16 GB+ |
 
 Bu değerler **Microsoft'un asgari gereksinimleri değildir**. İş yükü, sürücüler, disk ve güvenlik ayarları sonucu değiştirir. VM satırlarında bellek, konuk işletim sistemine ayrılan RAM'dir; ana bilgisayarın ayrıca kaynağa ihtiyacı vardır.
 
