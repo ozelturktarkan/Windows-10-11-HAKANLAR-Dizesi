@@ -6,7 +6,7 @@ Windows 10 **HAKANLAR Dizesi**, sanal makine laboratuvarlarından düşük donan
 
 Bu depo ailenin **tanıtım, seçim ve yayın kataloğudur**. Windows kurulum dosyalarını barındırmaz. Her yayımlanan profilin kendi kaynak deposu, değişiklik listesi, test raporu ve ISO doğrulama kaydı bulunur. HAKANLAR, Microsoft'un resmî bir ürün ailesi değildir.
 
-> **Yayın durumu — 1 Ekim 2026:** Windows 10 yayınları aşağıdaki bağlantılarda. Windows 11 kaynak depoları açıldı: UMAY hazırlanıyor; diğer dört profilin XML, tema/kurulum ekleri ve ISO hashleri yayımlandı. Windows 11 büyük ISO bağlantıları ve kesin revizyon kurulum testleri bekleniyor.
+> **Yayın durumu — 1 Ekim 2026:** Windows 10 yayınları aşağıdaki bağlantılarda. Windows 11 kaynak depoları açıldı: UMAY hazırlanıyor; diğer dört profilin XML, tema/kurulum ekleri ve ISO hashleri yayımlandı. Windows 11 büyük ISO bağlantıları ve kesin revizyon kurulum testlerinde kurulum sırasında PRODUCK KEY hatası tespit ettiğim için Windows 11 bağlantılarını sorun düzeltilene kadar kaldırdım. Lütfen Windows 10 Sürümlerimizi indirin.
 
 ## Ailenin mantığı
 
