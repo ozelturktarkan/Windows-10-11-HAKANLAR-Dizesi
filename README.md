@@ -77,7 +77,7 @@ fb47bb5ed1e12f4a4e1f9083b02de34b6118bab9ef7477f12946e5a1f2a36c41
 
 [Sürüm ve hash kaydı](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA/blob/main/SURUM.json). Alt deponun [Archive kaydına](https://github.com/ozelturktarkan/Windows-10-ALP-ER-TUNGA/blob/main/Archive-Dogrulama.json) göre boyut/SHA-1/MD5 eşleşti; tam Archive dosyasının yeniden SHA-256 hesabı yapılmış sayılmaz. Fiziksel donanım, Hyper-V çalıştırma, elle güncelleme ve uzun dönem kararlılık test edilmiş sayılmaz; 1607 Pro tabanına güncel güvenlik desteği kazandırılmaz.
 
-### Windows 10 ERTÜRK — r2 yayımlandı
+### Windows 10 ERTÜRK
 
 Windows 10 Pro 1909 x64, 18363.959; **8 GB+ RAM ve SSD** hedefi. Kurulum testi 4 GB RAM ile yapıldı. Store/Store Purchase App kaldırıldı; temel uygulamalar, yerel arama ve Edge Legacy korundu. Dört efektli profil, Türk bayrağı imleci ve ortak arka plan kullanılır. Ses için kullanıcı onayı ve VM ayarı/sorun giderici müdahalelerinin sınırı test raporundadır.
 
@@ -85,13 +85,19 @@ Windows 10 Pro 1909 x64, 18363.959; **8 GB+ RAM ve SSD** hedefi. Kurulum testi 4
 
 1909 kaynak ISO'sunun boyut/SHA-1/MD5 değerleri Archive metaverisiyle, gömülü WIM üretim kaynağıyla eşleşti. **Resmî Microsoft hash referansı bulunamadığından Microsoft özgünlüğü bağımsız doğrulanmadı.** [Kaynak bağlantısı ve tam rapor](https://github.com/ozelturktarkan/Windows-10-ERTURK/blob/main/KAYNAK-ISOLAR.md).
 
-### Windows 10 ULUTÜRK — r2 ISO yüklendi
+### Windows 10 ULUTÜRK
 
 Windows 10 Pro 22H2 x64, 19045.2965; **16 GB+ RAM ve SSD** hedefi. Kurulum testi 4 GB RAM / 1 vCPU ile yapıldı. Store ve temel uygulamalar korundu. MyDock 5.10.1, Türkçe dil dosyaları, otomatik gizlenen görev çubuğu ve dört efektli profil bulunur. Üçüncü taraf dock ikilileri GitHub paketinde yoktur; yeniden üretim için hash ile tanımlanan arşiv ayrıca gerekir.
 
 **[GitHub / kaynaklar ve testler](https://github.com/ozelturktarkan/Windows-10-ULUTURK)** · [r2 kaynak ve Türkçe dil paketleri](https://github.com/ozelturktarkan/Windows-10-ULUTURK/releases/tag/v1.0-r2). **[ULUTÜRK ISO yüklendi](https://archive.org/details/windows-10-uluturk)**; proje sahibine göre Archive işlemesi sürüyor. Dosya listesinde 5.161.299.968 baytlık ISO görünüyor; boyut/SHA-1/MD5 son r2 kaydıyla eşleşti. Doğrudan indirme erişimi ve tam dosya SHA-256 hesabı ayrıca doğrulanmadı. [Durum kaydı](https://github.com/ozelturktarkan/Windows-10-ULUTURK/blob/main/Archive-Durumu.json). r1 kurulumu denetlendi; r2 yalnız üç dil dosyasını değiştirir ve ikinci kurulum yapılmadı. Güvenlik tercihleri ve test sınırları alt depoda açıklanır; güncel güvenlik/ESU garantisi verilmez.
 
 **22H2 x64v1 kaynak ISO'sunun SHA-256 değeri Microsoft'un resmî Türkçe 64-bit tablosuyla eşleşti.** Verilen Archive 22H2 sayfasındaki farklı ISO, birebir üretim kaynağı olarak sunulmaz. [Hashler, indirme referansları ve WIM bağlantısı](https://github.com/ozelturktarkan/Windows-10-ULUTURK/blob/main/KAYNAK-ISOLAR.md).
+
+
+### Windows 10 ULUTÜRK — 20H2
+
+Windows 10 Pro 20H2 x64, 19042.928; **16 GB+ RAM ve SSD** hedefi. Kurulum testi 4 GB RAM / 1 vCPU ile yapıldı. Store ve temel uygulamalar korundu. TÜRK MacOS Windows Görünümü eklendi, otomatik gizlenen görev çubuğu ve dört efektli profille, open-shell bulunur. Windows 10-11 Simgeleri ve Orjinal kaynaktan Tarayıcı indirme betikleri yer almaktadır. En çok önerdiğimiz sürümdür.
+
 
 
 ## Dürüstçe kırpma ilkeleri
